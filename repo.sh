@@ -11,4 +11,6 @@ git clone https://github.com/javajokers/code.git
 
 cd ../install
 
+chmod +x install.sh
+
 ./install.sh
