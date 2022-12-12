@@ -2,8 +2,11 @@
 
 cd ~/install
 
-chmod +x frc.sh
+chmod +x repoFrc.sh
 chmod +x repo.sh
+
+cd ~
+mkdir gitClones
 
 ./frc.sh
 ./repo.sh
