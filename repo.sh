@@ -1,10 +1,8 @@
 #!/bin/bash
 
-cd ~
 
-mkdir gitClones
 
-cd gitClones
+cd ~/gitClones
 
 git clone https://github.com/javajokers/OldCodeUpdated.git
 git clone https://github.com/javajokers/2022.git
