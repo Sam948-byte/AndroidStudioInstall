@@ -1,13 +1,6 @@
 #!/bin/bash
 
-cd ~
-
-mkdir gitClones
-
-cd gitClones
-
-git clone https://github.com/milwaukeecybercheese/command.git
-
+sudo apt-get update
 sudo apt-get -y install default-jre
 
 cd ~
@@ -23,7 +16,3 @@ cd WPILib_Linux-2022.4.1
 chmod +x WPILibInstaller
 
 ./WPILibInstaller
-
-cd ~
-
-rm -rf install

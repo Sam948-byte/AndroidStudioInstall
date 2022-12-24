@@ -17,6 +17,3 @@ cd bin
 
 ./studio.sh
 
-rm -rf ~/install
-
-./studio.sh
